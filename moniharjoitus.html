@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moniharjoitus</title>
-    <link href="moniharjoitus.css" type="text/css" rel="stylesheet">
+    <link href="css/moniharjoitus.css" type="text/css" rel="stylesheet">
 </head>
 <body>
     <h1>Harjoittelen HTML:n kirjoittamista</h1>
@@ -21,19 +21,52 @@
 <h2>Listat</h2>
 <h3>Järjestäytymätön lista ja sen sisällä oleminen</h3>
     <ul>
-       <li> Ammatilliset aineet</li>
-       <li type="circle">Ohjelmointi</li>
-       <li type="circle">Ohjelmointikehittäjänä toimiminen</li>
-       <li>YTO-aineet</li>
-       <li>Kielikori</li>
-       <li type="circle">Englanti</li>
-       <li type="circle">Suomi</li>
-       <li type="circle">Ruotsi</li>
-       <li>Matematiikkakori</li>
-       <li>Matematiikka</li>
-       <li>Fysiikka ja kemia</li>
-
-
-</ul>
+       <li> <b>Ammatilliset aineet</b></li>
+        <ul>
+            <li type="circle">Ohjelmointi</li>
+            <li type="circle">Ohjelmointikehittäjänä toimiminen</li>
+        </ul>
+        <li><b>YTO-aineet</b></li>
+        <ul>
+            <li>Kielikori</li>
+                <ul>
+                    <li type="circle">Englanti</li>
+                    <li type="circle">Suomi</li>
+                    <li type="circle">Ruotsi</li>
+                </ul>
+            <li>Matematiikkakori</li>
+                <ul>
+                    <li type="circle">Matematiikka</li>
+                    <li type="circle">Fysiikka ja kemia</li>
+                </ul>
+        </ul>
+    </ul>
+<h2>Taulukko</h2>
+<table border="1">
+<tr>
+    <th></th>
+    <th>Maanantai</th>
+    <th>Tiistai</th>
+    <th>Keskiviikko</th>
+    <th>Torstai</th>
+    <th>Perjantai</th>
+    </tr>
+    <tr>
+    <th>Aamupäivä</th>
+    <td>Ohjelmointi</td>
+    <td></td>
+    <td>Ohjelmointi</td>
+    <td></td>
+    <td></td>
+    </tr>
+    <tr>
+    <th>Iltapäivä</th>
+    <td>Ohjelmointi</td>
+    <td></td>
+    <td>Ohjelmointi</td>
+    <td>Ohjelmointi</td>
+    <td></td>
+</tr>
+</table>
 </body>
 </html>
