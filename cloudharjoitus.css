@@ -1,0 +1,6 @@
+{
+    box-sizing: border-box; }
+    /*Kuvan ja otsikon väliin sininen viiva*/
+    header {
+        border-bottom: 7px solid #77bcedd6;
+      }
