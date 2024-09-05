@@ -1,0 +1,155 @@
+/*Pitää laatikon aina saman kokoisena, kai pitää jutut rajojen sisällä?*/
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+
+  main {
+    display: table;
+    width: 70%;
+    margin: 10px auto;
+    overflow: auto;
+    background: #FFF;
+  }
+
+  p {
+    margin: 10px 0;
+    line-height: 1.5em;
+  }
+/*ettei jutut valu laatikon ulkopuolelle*/
+  .clearfix:before, .clearfix:after {
+    content: ' ';
+    display: table;
+  }
+
+  .clearfix:after {
+    clear: both;
+  }
+/*Nämä ei tee vielä mitä pitää?*/
+  content-header {
+    border-bottom: 1px solid #DDD;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .content-footer {
+    border-top: 1px solid #DDD;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+/*Columns*/
+#left {
+    float: left;
+    width: 48%;
+  }
+  /*pointit*/
+  
+  #left ul li {
+    margin-bottom: 30px;
+  }
+
+  /*Tämä saa ikonit tekstin viereen*/
+#left ul img {
+  float: left;
+  margin-right: 20px;
+}
+
+/* määritetään left-col-id:n sisällä olevan points-luokan h4-block */
+#left ul h4 {
+  padding-top: 5px;
+ }
+
+.form {
+
+width: 650px;
+height: 350px;
+background-color: rgba(205, 210, 213, 0.434);
+border-radius: 10px; /*kulmien pyöreys*/
+margin: 10px; /*mahdollisesti turha marginaali*/
+float: right;
+width: 50%
+
+}
+
+.form input { 
+    width: 100%;
+    height: 25px;
+}
+#lomake input[type='text'],
+#lomake input[type='email'] {
+  height: 25px;
+  width: 50%;
+  border-radius: 5px;
+  margin: 10px
+ }
+
+ #lomake label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 30px; 
+    font-family: "Great Vibes", cursive;
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    width: 10em;
+    float: left;
+    clear: left;
+}
+
+/*Pääasia että toimii, mutta WTF?*/
+.button {
+    color: white}
+
+/*nappulan koodi*/
+.button {
+    background-color: rgb(224, 137, 70);
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+    float: right
+}
+
+
+#left {
+    float: left;
+    width: 48%;
+  }
+
+    /*Testimonials*/
+  #testimonials {
+    display: table-row;
+    margin: 40px 0;
+    color: #777;
+  }
+  
+  #testimonials img {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  #testimonials blockquote {
+    padding: -30px 30px 20px 30px;
+    width: 90%;
+  }
+
+  /*Footer*/
+#main-footer {
+    border-top: 1px solid #CCC;
+    text-align: center;
+    color: #AAA;
+  }
+  
