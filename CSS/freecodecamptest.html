@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function multiplyAll(arr) {
+  let product = 1;
+  // Only change code below this line
+for (let i = 0; i < arr.length; i++) {
+  for (let a = 0; a < arr[i].length; a++){
+  product = product * product[i][a]; 
+}
+}
+
+  // Only change code above this line
+  return product;
+}
+
+console.log(multiplyAll([[1, 2], [3, 4], [5, 6, 7]]));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
