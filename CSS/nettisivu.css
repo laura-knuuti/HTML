@@ -1,0 +1,62 @@
+body { 
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgba(222, 213, 201)
+}
+
+header {
+    background-color: rgba(164, 131, 98, 0.542);
+    text-align: center;
+    padding: 20px;
+    font-weight: bold
+}
+
+main heading {
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+h1 { 
+    font-size: 80px;
+}
+
+h2 { 
+    font-size: 35px;
+}
+p1 {
+    font-family: sans-serif, Helvetica, cursive
+}
+
+.container { 
+    margin: 0;
+    width: 150px;
+    background-color: rgba(217, 181, 141, 0.759);
+    padding: 10px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+
+}
+.container a {
+    text-decoration: none;
+    display: block;
+    padding: 18px;
+    color: #665344;
+}
+
+div.content {
+    display: flex;
+    width: 50%;
+    margin-left: 200px;
+    padding: 20px 30px;
+    height: 200px;
+    position: absolute;
+}
+@media screen and (max-width:500px) {
+    .container {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+}
