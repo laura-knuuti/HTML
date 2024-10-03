@@ -7,3 +7,4 @@ return "Numero on parillinen";
 }
 console.log (tarkistaLuku(12));
 console.log (tarkistaLuku(121));
+
