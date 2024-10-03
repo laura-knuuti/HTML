@@ -1,4 +1,0 @@
-table { th: 1px solid black; 
-    border-collapse: collapse }
-tr:nth-child(odd) { background-color: #D6EEEE; }
-tr:nth-child(even) { background-color: #98f1f1 }
