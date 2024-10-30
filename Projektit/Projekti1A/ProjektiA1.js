@@ -14,23 +14,16 @@
 //   //    alert ("Message sent.")
 //    // }
 //   }
- function checkboxVal() 
- {
-  var chk = document.getElementByName('device');
+function checkboxVal(event) {
+  event.preventDefault();
+  var chk = document.getElementsByName("device");
   let hasChecked = false;
-  for (var i = 0; i < chk.length; i++)
-  {
-    if (chk[i].checked) 
-    {
-       hasChecked = true;
+  for (var i = 0; i < chk.length; i++) {
+    if (chk[i].checked) {
+      hasChecked = true;
     }
   }
-  if (hasChecked == false)
-  {
-    alert ("Check at least one device");
+  if (hasChecked == false) {
+    alert("Check at least one device");
   }
-  alert(hasChecked)
 }
-
-
-
