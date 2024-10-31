@@ -1,54 +1,40 @@
 //currently checks if the information fields are empty, any changes possible...
-function check()
+function check(event)
 {
+  event.preventDefault();
   var etunimi = document.getElementById('fname').value;
   var sukunimi = document.getElementById('lname').value;
   var email = document.getElementById('email').value;
   var salasana = document.getElementById('password').value;
+  var mail = /\S+@\S+/;
   if (etunimi == "" || sukunimi == "" || salasana == "")
     {
       alert ("You didn't give all the all the information. Please check.");
-      }
-    //else
-  //{
-    //  document.getElementById('p1').innerHTML = "Message sent."
-  //}
-  var email = /\S+@\S+/;
-  if (!email.test(mail))
-    {
-    alert ("Give valid email address")
-    return false;
-  }
-}
-  {
-    alert ("You didn't give all the all the information. Please check.");
     }
+  else if (!mail.test(email))
+    {
+    alert ("Give valid email address");
+  }
+
 
   //checks password
-  password.preventDefault(); {
-  if (password.length < 12) {
-    return false;
+  if (salasana.length < 12) {
+    alert("Salasanan pitää olla vähintään 12 merkkiä pitkä");
   }
 
-  if (!/[a-z]/.test(password)) {
-    return false;
+  else if (!/[a-z]/.test(salasana)) {
+    alert("Salasanassa tulee olla pieni kirjain");
   }
 
-  if (!/[A-Z]/.test(password))
+  else if (!/[A-Z]/.test(salasana))
   {
-    return false;
+    alert("Salasanassa tulee olla iso kirjain");
   }
-  if (!/[0-9]/.test(password)) {
-    return false;
+  else if (!/[0-9]/.test(salasana)) {
+    alert("Salasanassa tulee olla numero");
   }
-  return true;
-}
-  if  (password == false);
-  {
-    alert ("Your password didn't meet all the conditions. Please check.")
-  }
-//checks checkboxes
-preventDefault();
+// checks checkboxes
+event.preventDefault();
     var chk = document.getElementsByName("device");
     var hasChecked = false;
     for (var i = 0; i < chk.length; i++) 
@@ -74,10 +60,11 @@ preventDefault();
     }
 
 
-//function to call functions
-  //function callEverything() {
-//check();
-//checkboxVal();
-//pwCheck();
-//}
+// // //function to call functions
+// //   //function callEverything() {
+// // //check();
+// // //checkboxVal();
+// // //pwCheck();
+// // //}
 
+}
