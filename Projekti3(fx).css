@@ -1,0 +1,57 @@
+.laskin {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 345px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  }
+
+.ruutu {
+    font-size: 3rem;
+    text-align: right;
+    background: rgba(31, 35, 43, 0.685);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+.napit {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: minmax(80px, auto) repeat(4, 80px); 
+    grid-gap: 3px;
+    background-color: rgba(31, 35, 43, 0.685);
+    padding: 6px;
+  }
+
+.input {
+    margin: auto;
+    width: 320px;
+    height: 100px;
+    background-color:rgba(19, 17, 17, 0.658);
+    color: white;
+    font-size: 30px;
+    text-align: right
+  }
+  
+.enter
+{
+    grid-column: 4/5;
+    grid-row: 3 /span 3;
+    height: auto;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgba(220, 29, 29, 0.813);
+    color: white;
+    border-radius: 10px;
+}
+
+.button {
+  font-size: 30px;
+  font-weight: bold;
+  background-color:rgba(118, 109, 109, 0.658);
+  color: white;
+  border-radius: 10px;
+}

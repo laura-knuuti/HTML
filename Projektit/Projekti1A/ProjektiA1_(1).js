@@ -6,11 +6,14 @@ function check(event)
   var sukunimi = document.getElementById('lname').value;
   var email = document.getElementById('email').value;
   var salasana = document.getElementById('password').value;
+<<<<<<<< HEAD:Projektit/Projekti1A/projektiA1(fx).js
   var palaute = document.getElementById('textfield').value;
   var mail = /\S+@\S+/;
   if (etunimi == "" || sukunimi == "" || salasana == ""|| palaute == "")
+========
   var mail = /\S+@\S+/;
   if (etunimi == "" || sukunimi == "" || salasana == "")
+>>>>>>>> a25f6a607395bf6c4ea83c74e53c9c4eaa98a40a:Projektit/Projekti1A/ProjektiA1_(1).js
     {
       alert ("You didn't give all the all the information. Please check.");
     }
@@ -61,4 +64,13 @@ event.preventDefault();
       if (hasChk == false) {
         alert("Check at least one movie");
     }
+
+
+// // //function to call functions
+// //   //function callEverything() {
+// // //check();
+// // //checkboxVal();
+// // //pwCheck();
+// // //}
+
 }
