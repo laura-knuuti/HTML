@@ -1,9 +1,134 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.6">
   <diagram name="Sivu-1" id="u7_rgkUuKTMpWm1nYQXm">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gJ7-xyugt7pKa7i-lzu--1" target="gJ7-xyugt7pKa7i-lzu--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--1" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="110" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gJ7-xyugt7pKa7i-lzu--2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--2" value="Luo pääsivu, jolla on tervetuloviesti ja riittävät ohjeet peliin" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="110" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--5" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="270" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--6" value="Luo painikkeet, joilla voi liikkua sivulta toiselle" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="280" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--8" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="420" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--9" value="Luo valikko, jolla pystyy siirtymään sivulta toiselle" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="430" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--14" value="Etusivu" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="90" y="20" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.563;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.534;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gJ7-xyugt7pKa7i-lzu--5" target="gJ7-xyugt7pKa7i-lzu--8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="360" as="sourcePoint" />
+            <mxPoint x="200" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--20" value="Linkki pelisivulle" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="580" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.459;exitY=1.038;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.55;entryY=-0.031;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gJ7-xyugt7pKa7i-lzu--8" target="gJ7-xyugt7pKa7i-lzu--20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="570" as="sourcePoint" />
+            <mxPoint x="200" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.463;exitY=1.062;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gJ7-xyugt7pKa7i-lzu--20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="750" as="sourcePoint" />
+            <mxPoint x="144" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--23" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="710" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gJ7-xyugt7pKa7i-lzu--23" target="gJ7-xyugt7pKa7i-lzu--23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--27" value="Kiva sivu joka saa pelaamaan muistipeliä" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="730" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--28" value="Luo pelisivu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="100" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--30" value="&lt;div&gt;Luo pudotusvalikko, josta voi valita pelityypin vaihtoehdoista 4x4,&lt;/div&gt;&lt;div&gt;4x6 ja 6x6&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="270" width="225" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.538;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gJ7-xyugt7pKa7i-lzu--28" target="gJ7-xyugt7pKa7i-lzu--30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="519.5" y="210" as="sourcePoint" />
+            <mxPoint x="519.5" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--33" value="Luo pisteytys joka laskee käyttäjän napautukset" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="410" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.533;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gJ7-xyugt7pKa7i-lzu--30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="370" as="sourcePoint" />
+            <mxPoint x="530" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--37" value="Luo timer joka näyttää peliin kuluneen ajan" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="550" width="200" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gJ7-xyugt7pKa7i-lzu--33" target="gJ7-xyugt7pKa7i-lzu--37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="560" as="sourcePoint" />
+            <mxPoint x="515" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--42" value="Muistipeli" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="409" y="950" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--43" value="&lt;div&gt;Etsi pelissä käytettävät kuvat&lt;/div&gt;&lt;div&gt;ja suunnittele visuaalisesti&lt;/div&gt;&lt;div&gt;myös takapuolelta&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="404" y="690" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--46" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.552;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gJ7-xyugt7pKa7i-lzu--37" target="gJ7-xyugt7pKa7i-lzu--43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="650" as="sourcePoint" />
+            <mxPoint x="550" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.562;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gJ7-xyugt7pKa7i-lzu--43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="780" as="sourcePoint" />
+            <mxPoint x="520" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--48" value="Pelisivu" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="485" y="30" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--49" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="820" width="180.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--51" value="Paluu etusivulle" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="471.5" y="840" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gJ7-xyugt7pKa7i-lzu--52" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.554;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gJ7-xyugt7pKa7i-lzu--49" target="gJ7-xyugt7pKa7i-lzu--42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="910" as="sourcePoint" />
+            <mxPoint x="545" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
